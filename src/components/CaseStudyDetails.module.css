@@ -1,0 +1,113 @@
+.instacloneDesktopIs,
+.instagramCloneUi {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.instacloneDesktopIs {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+}
+.caseStudyDetails3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.viewCaseStudy {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 600;
+  color: var(--color-slategray);
+}
+.caseStudyDetails2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-95xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 337px;
+  max-width: 100%;
+}
+.macbook011 {
+  width: 482px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.caseStudyDetails,
+.caseStudyDetails1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.caseStudyDetails1 {
+  width: 1076px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-57xl);
+  flex-shrink: 0;
+}
+.caseStudyDetails {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-floralwhite);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-work-sans);
+}
+@media screen and (max-width: 1225px) {
+  .caseStudyDetails1 {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .macbook011 {
+    flex: 1;
+  }
+  .caseStudyDetails1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .instagramCloneUi {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .caseStudyDetails2 {
+    padding-right: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .caseStudyDetails1 {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 410px) {
+  .instacloneDesktopIs,
+  .instagramCloneUi,
+  .viewCaseStudy {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .caseStudyDetails2 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}

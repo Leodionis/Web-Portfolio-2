@@ -1,0 +1,66 @@
+.frameParent,
+.greeting,
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.greeting {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 0 311px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent,
+.one {
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 64px;
+  max-width: 100%;
+}
+.one {
+  width: 100%;
+  position: relative;
+  background-color: #ffeed9;
+  overflow: hidden;
+  padding: 29px 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: 142px;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 1225px) {
+  .greeting {
+    padding-bottom: 202px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .greeting {
+    padding-bottom: 131px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .greeting {
+    padding-bottom: 85px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+  .one {
+    gap: 71px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .one {
+    gap: 35px;
+  }
+}

@@ -1,0 +1,200 @@
+.someGenerousWords {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.someOfMy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-200);
+  text-align: center;
+}
+.someGenerousWordsParent {
+  width: 784px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.caretLeftBackPreviousW {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aVisualGuide {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.chaJiHun {
+  width: 361px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.testimonialQuotes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 299px;
+  max-width: 100%;
+}
+.aVisualGuide1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.chaJiHun1 {
+  width: 361px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.testimonialQuotes1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 299px;
+  max-width: 100%;
+}
+.testimonialContent,
+.testimonialNavigation {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.testimonialContent {
+  width: 1086px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-131xl) 0 0;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+  max-width: 102%;
+}
+.testimonialNavigation {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-75xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-work-sans);
+}
+.frameParent,
+.oneInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1068px;
+  gap: var(--gap-77xl);
+}
+.oneInner {
+  align-self: stretch;
+  padding: var(--padding-45xl) var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-eczar);
+}
+@media screen and (max-width: 1225px) {
+  .testimonialContent {
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+  .testimonialNavigation {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .testimonialContent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .someGenerousWords {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .testimonialContent {
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .testimonialNavigation {
+    gap: var(--gap-28xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .oneInner {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 410px) {
+  .someGenerousWords {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .aVisualGuide,
+  .someOfMy {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .aVisualGuide1,
+  .chaJiHun,
+  .chaJiHun1 {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .aVisualGuide1,
+  .chaJiHun1 {
+    line-height: 24px;
+  }
+  .chaJiHun1 {
+    line-height: 20px;
+  }
+  .testimonialNavigation {
+    gap: var(--gap-4xl);
+  }
+}

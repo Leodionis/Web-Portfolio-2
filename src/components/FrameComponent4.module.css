@@ -1,0 +1,185 @@
+.myRecentWork {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.myRecentWorkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.thisIsMy,
+.webEduBelajar {
+  position: relative;
+  line-height: 150%;
+}
+.webEduBelajar {
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.thisIsMy {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+}
+.webEduBelajarBekerjaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+}
+.viewCaseStudy {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 600;
+  color: var(--color-slategray);
+}
+.frameContainer {
+  width: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 404px;
+  max-width: 100%;
+}
+.home1Icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  transform: scale(1.226);
+}
+.frameGroup,
+.wrapperHome1 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.wrapperHome1 {
+  height: 318px;
+  width: 509px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  justify-content: center;
+}
+.frameGroup {
+  width: 1029px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.caseStudyDetails,
+.caseStudyDetailsParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.caseStudyDetails {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-floralwhite);
+  align-items: flex-end;
+  padding: var(--padding-22xl);
+  box-sizing: border-box;
+}
+.caseStudyDetailsParent,
+.frameParent {
+  align-items: flex-start;
+}
+.caseStudyDetailsParent {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-work-sans);
+}
+.frameParent {
+  width: 1142px;
+  gap: var(--gap-13xl);
+}
+.greetingInner {
+  align-self: stretch;
+  background-color: var(--color-peachpuff-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-69xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-eczar);
+}
+@media screen and (max-width: 1050px) {
+  .frameContainer,
+  .home1Icon {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .greetingInner {
+    padding-top: var(--padding-38xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .myRecentWork {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .webEduBelajar {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .greetingInner {
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 410px) {
+  .myRecentWork {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .thisIsMy,
+  .viewCaseStudy,
+  .webEduBelajar {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .caseStudyDetails {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

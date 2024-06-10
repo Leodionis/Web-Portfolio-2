@@ -1,0 +1,113 @@
+.letsWorkTogether {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.letsWorkTogetherAndMakeEParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  min-width: 580px;
+  max-width: 100%;
+}
+.instagramIcon {
+  height: 100%;
+  width: 100%;
+}
+.instagram,
+.instagramIcon,
+.linkedin,
+.linkedinIcon {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+.instagram {
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkedin,
+.linkedinIcon {
+  height: 100%;
+  width: 100%;
+}
+.linkedin {
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent,
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameParent {
+  width: 1014px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-eczar);
+}
+@media screen and (max-width: 750px) {
+  .letsWorkTogether {
+    font-size: var(--font-size-32xl);
+    line-height: 64px;
+  }
+  .letsWorkTogetherAndMakeEParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 410px) {
+  .letsWorkTogether {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .letsWorkTogetherAndMakeEParent {
+    gap: var(--gap-9xl);
+  }
+}
