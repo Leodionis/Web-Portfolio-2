@@ -1,10 +1,7 @@
+# Web Portfolio 2
 
-  # Designer Portfolio Website Template (Community)
+## Deskripsi
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+**Web Portfolio 2** adalah proyek portofolio pribadi yang dirancang untuk menampilkan keterampilan, proyek, dan pengalaman profesional Anda secara online. Halaman portofolio ini memberikan cara yang elegan dan profesional untuk memperkenalkan diri kepada calon klien, perekrut, atau kolaborator. Desain ini fokus pada estetika yang bersih dan navigasi yang mudah.
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+<img src="img" alt="Alt Text" width="3000"/>
